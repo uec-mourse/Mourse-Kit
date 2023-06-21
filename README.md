@@ -17,7 +17,7 @@ dockerコンテナ立ち上げと同時にFlaskサーバが起動するように
 docker-compose up --build
 ```
 
-docker-composeの放置されている問題として，proxy下にあるwindows PCで上記コマンドをしてもネットワークエラーになることがあります．
+docker-composeには2023/6/21現在でも放置されているバグがあり，proxy下にあるwindows PCで上記コマンドをしてもネットワークエラーになることがあります．
 
 その場合は初回build時のみ下記コマンドを利用してください．
 
