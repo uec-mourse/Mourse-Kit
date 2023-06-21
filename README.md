@@ -6,6 +6,9 @@ Flaskで作成したマールスAPIです．
 ## 使い方
 
 ```bash
+git clone https://github.com/uec-mourse/Mourse-API-flask.git
+cd Mourse-API-flask
+pip install -r requirements.txt
 python3 app.py
 ```
 
