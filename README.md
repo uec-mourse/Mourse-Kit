@@ -13,7 +13,17 @@ dockerコンテナ立ち上げと同時にFlaskサーバが起動するように
 
 ## 使い方
 
+```bash
+docker-compose up --build
 ```
+
+docker-composeの放置されている問題として，proxy下にあるwindows PCで上記コマンドをしてもネットワークエラーになることがあります．
+
+その場合は初回build時のみ下記コマンドを利用してください．
+
+```bash
+docker pull python:3.8
+docker pull docker.elastic.co/elasticsearch/elasticsearch:7.16.2
 docker-compose up --build
 ```
 
@@ -33,3 +43,4 @@ curl -X 'POST' \
     "data": "ここに入力"
   }'
 ```
+
