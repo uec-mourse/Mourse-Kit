@@ -13,6 +13,12 @@
 
 https://unity.com/ja/download
 
+以下の手順に従ってプロジェクトを作成してください．
+
+https://tech.pjin.jp/blog/2020/08/31/unity-project-create
+
+プロジェクトの種類は３Dを選択してください．
+
 ### 2. Unity Packageのダウンロード
 以下のGoogle DriveからUnity Package（Unityのデータを配布するためのもの）をダウンロードしてください．
 
