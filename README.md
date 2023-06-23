@@ -7,18 +7,18 @@
 配布して各自がAPIを実装することを想定しているため，最低限の機能しか実装していません．
 
 ## 導入手順
-### 1.Unityの導入
+### 1. Unityの導入
 
 以下にアクセスしてUnity Hubをダウンロードして，インストールしてください．
 
 https://unity.com/ja/download
 
-### 2.Unity Packageのダウンロード
+### 2. Unity Packageのダウンロード
 以下のGoogle DriveからUnity Package（Unityのデータを配布するためのもの）をダウンロードしてください．
 
 URL
 
-### 3.Unity Packageのインポート
+### 3. Unity Packageのインポート
 以下の記事を見て，Unity PackageをUnityにインポートしてください．（ドラッグ＆ドロップするだけです）
 
 https://tech.pjin.jp/blog/2021/02/28/unity_unitypackage_import_export/
@@ -31,7 +31,7 @@ GameタブをクリックするとマールスのUIが表示されるはずで�
 
 この操作でUnity側の準備は終わりです．
 
-### 4.Flask APIの導入
+### 4. Flask APIの導入
 以下の手順でGit CloneしてPythonファイルを実行することで，APIサーバが立ち上がります．
 
 ```bash
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 python3 app.py
 ```
 
-### 5.VOICEVOXの導入
+### 5. VOICEVOXの導入
 以下から音声合成ソフトVOICEVOXをダウンロードしてください．
 
 https://voicevox.hiroshiba.jp/
