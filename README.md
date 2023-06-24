@@ -58,6 +58,9 @@ https://voicevox.hiroshiba.jp/how_to_use/
 
 また，設定からCPUを使うかGPUを使うかを選択することが出来ます．
 
+VOICEVOXを起動すると勝手に音声合成のためのサーバが立ち上がります．
+
+Flaskサーバ，VOICEVOX，Unityが起動している状態で，Unityの`Gameタブ`にある`再生ボタン▶`を押すとマールスが起動します．
 ## 最低限の機能
 * ルートのエンドポイントにアクセスするとメッセージが表示される
 * エコーAPI
