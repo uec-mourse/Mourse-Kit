@@ -7,7 +7,8 @@
 配布して各自がAPIを実装することを想定しているため，最低限の機能しか実装していません．
 
 # 各ツールについて（概要や役割など）
-<img width="1721" alt="image" src="https://github.com/uec-mourse/Mourse-Kit/assets/100839509/c435a066-00ba-43d5-ac1f-826495c89dd5">
+![mourse drawio (1)](https://github.com/uec-mourse/Mourse-Kit/assets/100839509/d53d51dd-b2d7-411f-8e99-c61acc933a1c)
+
 
 ## Unity
 Unityとはゲーム開発のためのプラットフォームです。
