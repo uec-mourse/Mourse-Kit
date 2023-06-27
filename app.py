@@ -8,6 +8,7 @@ def hello_world():
 
 @app.route("/echo", methods=["POST"])
 def echo():
+    # 送られてきたリクエストのdataキーから要素を取得
     text = request.json["data"]
     return text
 
